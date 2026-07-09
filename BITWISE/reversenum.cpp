@@ -2,8 +2,18 @@
 #include <iostream>
 using namespace std;
 int main(){
-    long long n;
-    cout<<"enter the number u want to reverse"<<endl;
-    cin>>n;
-    for(int i=0;)
+    long long int n=785;
+    
+    int reverse=0;
+
+    while(n>0){
+        int digit=n%10;
+        reverse=reverse*10+digit;
+        n/=10;
+
+    }
+    cout<<reverse<<endl;
+
+    return 0;
+
 }
