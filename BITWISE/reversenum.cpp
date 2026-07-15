@@ -11,9 +11,6 @@ int main(){
         reverse=reverse*10+digit;
         n/=10;
 
-    }
-    cout<<reverse<<endl;
-
     return 0;
 
-}
+}//hello
