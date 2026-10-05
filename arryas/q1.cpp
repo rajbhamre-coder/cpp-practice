@@ -20,3 +20,4 @@ int main(){
     cout<<"Largest number is: "<<largest<<endl;
     return 0;
 }
+//here we have used int_max and int min 
